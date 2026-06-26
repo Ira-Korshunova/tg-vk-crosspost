@@ -1,0 +1,6 @@
+# Список ссылок для автопостинга
+# Каждая ссылка — с новой строки. Пустые строки и строки с # игнорируются.
+
+https://cyberleninka.ru/article/n/psihofiziologicheskie-harakteristiki-obektivizatsii-protsessov-vnusheniya
+https://cyberleninka.ru/article/n/vnushenie-i-gipnoz-v-sovremennyh-psihologicheskih-teoriyah
+https://www.techinsider.ru/science/8558-pod-gipnozom-pravda-i-mify-o-gipnoze/
