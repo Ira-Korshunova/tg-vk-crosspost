@@ -40,8 +40,9 @@ id,url,status,post_path,generated_at,published_at
       - `posts/YYYY-MM-DD-hypno-post-social.json` → `posts/YYYY-MM-DD-<id>-hypno-post-social.json`
       - `posts/YYYY-MM-DD-hypno-post-social.png` → `posts/YYYY-MM-DD-<id>-hypno-post-social.png` (только если PNG существует — проверь через `Bash(ls /Users/irina/Desktop/claud_mod_3_2/posts)`)
       Используй `Bash(mv ...)` — НЕ перезаписывай, если целевое имя уже занято.
-   e. Обнови строку: `post_path=posts/YYYY-MM-DD-<id>-hypno-post-social.json`, `generated_at=<ISO now из date +%FT%H:%M:%S>`, `status=generated`.
-   f. Если генерация или переименование упали — поставь `status=failed`, причину в отчёт, переходи к следующей строке.
+   e. **Обнови `image_path` внутри JSON** на переименованный PNG: прочитай `posts/YYYY-MM-DD-<id>-hypno-post-social.json` (Read), поставь `image_path` = `/Users/irina/Desktop/claud_mod_3_2/posts/YYYY-MM-DD-<id>-hypno-post-social.png` (абсолютный путь), запиши файл обратно (Write). Это обязательно — иначе `publish.py` не найдёт картинку по старому пути и опубликует только текст. Если PNG не было — оставь `image_path` пустым или удали поле.
+   f. Обнови строку: `post_path=posts/YYYY-MM-DD-<id>-hypno-post-social.json`, `generated_at=<ISO now из date +%FT%H:%M:%S>`, `status=generated`.
+   g. Если генерация, переименование или обновление `image_path` упали — поставь `status=failed`, причину в отчёт, переходи к следующей строке.
 5. **Фаза публикации** — для каждой строки со `status=generated` по порядку `id`:
    a. Прочитай JSON по `post_path` (Read). Если в нём уже есть `published_at` — поставь `status=published`, скопируй `published_at` в CSV, пропусти вызов публикатора.
    b. Иначе вызови скилл публикации: `Skill` с `skill="publish-to-social"`, `args="<post_path>"`. Скилл запустит `publish.py --post <post_path>`, опубликует в TG/VK и поставит `published_at` в JSON.
