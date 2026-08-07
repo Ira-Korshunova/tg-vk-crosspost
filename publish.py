@@ -3,12 +3,15 @@ import json
 import glob
 import subprocess
 import requests
+from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
 
-load_dotenv()
+BASE_DIR = Path(__file__).resolve().parent
+load_dotenv(BASE_DIR / ".env")
 
-POSTS_DIR = "/Users/irina/Desktop/claud_mod_3_2/posts"
+POSTS_DIR = str(BASE_DIR / "posts")
+VK_TOKEN_REFRESH = str(BASE_DIR / "vk_token_refresh.py")
 
 
 def ensure_vk_token_fresh():
@@ -36,7 +39,7 @@ def ensure_vk_token_fresh():
     # Token invalid or missing, try to refresh
     try:
         result = subprocess.run(
-            ["python3", "/Users/irina/Desktop/claud_mod_3_2/vk_token_refresh.py"],
+            ["python3", VK_TOKEN_REFRESH],
             capture_output=True,
             text=True,
             timeout=60,

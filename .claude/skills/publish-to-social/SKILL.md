@@ -1,9 +1,9 @@
 ---
 name: publish-to-social
-description: Публикует готовый JSON-пост (с изображением, если есть) в Telegram и ВКонтакте. Без аргументов — последний JSON в /posts; с путём — конкретный файл.
+description: Публикует готовый JSON-пост (с изображением, если есть) в Telegram и ВКонтакте. Без аргументов — последний JSON в ./posts; с путём — конкретный файл.
 allowed-tools:
   - Read
-  - Bash(python3 /Users/irina/Desktop/claud_mod_3_2/publish.py *)
+  - Bash(python3 ./publish.py *)
 ---
 
 # Publish to Social
@@ -12,7 +12,7 @@ allowed-tools:
 
 ## Вход
 
-- Без аргументов: берётся самый свежий JSON в `/Users/irina/Desktop/claud_mod_3_2/posts`.
+- Без аргументов: берётся самый свежий JSON в `./posts`.
 - С аргументом-путём: публикуется указанный JSON-файл. Этот режим использует оркестратор `/orchestrate`.
 
 ## Что нужно сделать
@@ -27,8 +27,8 @@ allowed-tools:
    - `VK_ACCESS_TOKEN`
    - `VK_GROUP_ID`
 4. Запусти публикацию:
-   - путь передан → `python3 /Users/irina/Desktop/claud_mod_3_2/publish.py --post <путь>`;
-   - путь не передан → `python3 /Users/irina/Desktop/claud_mod_3_2/publish.py`.
+   - путь передан → `python3 ./publish.py --post <путь>`;
+   - путь не передан → `python3 ./publish.py`.
 5. Если скрипт вернул ошибку — сообщи пользователю причину.
 6. Если успешно — кратко сообщи, что пост (с картинкой, если была) опубликован в обеих соцсетях.
 

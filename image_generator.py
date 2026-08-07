@@ -6,9 +6,10 @@ import requests
 from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv()
+BASE_DIR = Path(__file__).resolve().parent
+load_dotenv(BASE_DIR / ".env")
 
-DEFAULT_POSTS_DIR = "/Users/irina/Desktop/claud_mod_3_2/posts"
+DEFAULT_POSTS_DIR = str(BASE_DIR / "posts")
 
 
 def generate_image(prompt, api_key, base_url, model, size="1280*1280", n=1):

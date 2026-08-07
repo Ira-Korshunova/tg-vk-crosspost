@@ -1,11 +1,11 @@
 ---
 name: hypno-post-to-social
-description: Превращает одну статью или ссылку по теме гипноза в готовой пост для Telegram и ВКонтакте, генерирует промпт и пытается сгенерировать изображение через Qwen API, сохраняет результат в /posts.
+description: Превращает одну статью или ссылку по теме гипноза в готовой пост для Telegram и ВКонтакте, генерирует промпт и пытается сгенерировать изображение через Qwen API, сохраняет результат в ./posts.
 allowed-tools:
   - WebFetch
   - Read
-  - Write(~/Desktop/claud_mod_3_2/posts/**)
-  - Bash(python3 /Users/irina/Desktop/claud_mod_3_2/image_generator.py * /Users/irina/Desktop/claud_mod_3_2/posts/*)
+  - Write(./posts/**)
+  - Bash(python3 ./image_generator.py * ./posts/*)
 ---
 
 # Hypno Post to Social
@@ -38,7 +38,7 @@ allowed-tools:
 
 ## Что нужно создать
 
-Создай один файл с результатом и сохрани его в папку `~/Desktop/claud_mod_3_2/posts`.
+Создай один файл с результатом и сохрани его в папку `./posts`.
 
 Имя файла:
 ```text
@@ -62,8 +62,8 @@ YYYY-MM-DD-hypno-post-social.json
 3. Напиши посты для Telegram и ВКонтакте, опираясь на факты из статьи, а не на шаблоны.
 4. Сгенерируй промпт для картинки через Qwen API. Промпт должен визуализировать **конкретную сцену из статьи**, а не общую тему гипноза.
 5. Перед сохранением проверь, что посты и промпт относятся именно к этой статье, а не повторяют пример из SKILL.md.
-6. Сохрани итоговый JSON в `/Users/irina/Desktop/claud_mod_3_2/posts`.
-7. Сразу после сохранения JSON запусти генерацию изображения: `python3 /Users/irina/Desktop/claud_mod_3_2/image_generator.py <путь_к_JSON>`.
+6. Сохрани итоговый JSON в `./posts`.
+7. Сразу после сохранения JSON запусти генерацию изображения: `python3 ./image_generator.py <путь_к_JSON>`.
 8. Если генерация изображения не удалась, не отменяй сохранённый JSON — оставь его без `image_path`.
 9. Не добавляй никакого текста до или после JSON.
 10. Не создавай лишние файлы.
@@ -185,7 +185,7 @@ YYYY-MM-DD-hypno-post-social.json
     "published_at": "YYYY-MM-DD"
   },
   "image_prompt": "Промпт для генерации изображения через Qwen API.",
-  "image_path": "/Users/irina/Desktop/claud_mod_3_2/posts/YYYY-MM-DD-hypno-post-social.png",
+  "image_path": "./posts/YYYY-MM-DD-hypno-post-social.png",
   "platforms": {
     "telegram": {
       "content": "Текст Telegram-поста."
@@ -227,7 +227,7 @@ YYYY-MM-DD-hypno-post-social.json
 - все строки корректно экранированы;
 - `telegram.content` и `vk.content` заполнены;
 - `image_prompt` заполнен;
-- файл сохранён именно в `~/Desktop/claud_mod_3_2/posts`.
+- файл сохранён именно в `./posts`.
 
 Не вызывай `python3 -m json.tool` и не делай лишних `read` файла после записи — это создаёт дополнительные запросы на подтверждение у пользователя.
 
@@ -237,7 +237,7 @@ YYYY-MM-DD-hypno-post-social.json
 - Не добавляй лишние пояснения вне JSON.
 - Не придумывай факты.
 - Не делай псевдонаучный текст.
-- Не сохраняй результат в другое место. Папка для сохранения: `/Users/irina/Desktop/claud_mod_3_2/posts`.
+- Не сохраняй результат в другое место. Папка для сохранения: `./posts`.
 - Не создавай несколько вариантов без запроса.
 
 ## Поведение при нехватке данных
@@ -255,6 +255,6 @@ YYYY-MM-DD-hypno-post-social.json
 
 - Реальные токены, ключи API и пароли пользователь вносит в файл `.env` **самостоятельно**.
 - Этот скилл **никогда не пишет, не перезаписывает и не читает** `.env`.
-- Скилл сохраняет данные только в папку `/Users/irina/Desktop/claud_mod_3_2/posts`.
+- Скилл сохраняет данные только в папку `./posts`.
 - В `.env.example` находится шаблон — скопируй его в `.env` и заполни реальными значениями руками.
 - Не сохраняй реальные токены в SKILL.md, код или git.

@@ -3,10 +3,10 @@ name: orchestrate
 description: Оркестратор: читает queue.csv, для новых pending-ссылок вызывает /hypno-post-to-social (генерация JSON+PNG) и публикует через /publish-to-social, ведёт статусы и двойной дедуп.
 allowed-tools:
   - Read
-  - Write(~/Desktop/claud_mod_3_2/queue.csv)
-  - Write(~/Desktop/claud_mod_3_2/posts/**)
-  - Bash(ls /Users/irina/Desktop/claud_mod_3_2/posts)
-  - Bash(mv /Users/irina/Desktop/claud_mod_3_2/posts/* /Users/irina/Desktop/claud_mod_3_2/posts/*)
+  - Write(./queue.csv)
+  - Write(./posts/**)
+  - Bash(ls ./posts)
+  - Bash(mv ./posts/* ./posts/*)
   - Bash(date +%F)
   - Bash(date +%FT%H:%M:%S)
   - Skill
@@ -19,7 +19,7 @@ allowed-tools:
 
 ## Таблица queue.csv
 
-Путь: `/Users/irina/Desktop/claud_mod_3_2/queue.csv`. Формат (CSV, заголовок обязателен):
+Путь: `./queue.csv`. Формат (CSV, заголовок обязателен):
 
 ```
 id,url,status,post_path,generated_at,published_at
@@ -38,9 +38,9 @@ id,url,status,post_path,generated_at,published_at
    c. Вызови скилл генерации: `Skill` с `skill="hypno-post-to-social"`, `args="<url>"`. Скилл сохранит `posts/YYYY-MM-DD-hypno-post-social.json` и, если генерация картинки удалась, `.png`.
    d. Переименуй файлы в уникальные с `<id>`:
       - `posts/YYYY-MM-DD-hypno-post-social.json` → `posts/YYYY-MM-DD-<id>-hypno-post-social.json`
-      - `posts/YYYY-MM-DD-hypno-post-social.png` → `posts/YYYY-MM-DD-<id>-hypno-post-social.png` (только если PNG существует — проверь через `Bash(ls /Users/irina/Desktop/claud_mod_3_2/posts)`)
+      - `posts/YYYY-MM-DD-hypno-post-social.png` → `posts/YYYY-MM-DD-<id>-hypno-post-social.png` (только если PNG существует — проверь через `Bash(ls ./posts)`)
       Используй `Bash(mv ...)` — НЕ перезаписывай, если целевое имя уже занято.
-   e. **Обнови `image_path` внутри JSON** на переименованный PNG: прочитай `posts/YYYY-MM-DD-<id>-hypno-post-social.json` (Read), поставь `image_path` = `/Users/irina/Desktop/claud_mod_3_2/posts/YYYY-MM-DD-<id>-hypno-post-social.png` (абсолютный путь), запиши файл обратно (Write). Это обязательно — иначе `publish.py` не найдёт картинку по старому пути и опубликует только текст. Если PNG не было — оставь `image_path` пустым или удали поле.
+   e. **Обнови `image_path` внутри JSON** на переименованный PNG: прочитай `posts/YYYY-MM-DD-<id>-hypno-post-social.json` (Read), поставь `image_path` = `./posts/YYYY-MM-DD-<id>-hypno-post-social.png` (абсолютный путь), запиши файл обратно (Write). Это обязательно — иначе `publish.py` не найдёт картинку по старому пути и опубликует только текст. Если PNG не было — оставь `image_path` пустым или удали поле.
    f. Обнови строку: `post_path=posts/YYYY-MM-DD-<id>-hypno-post-social.json`, `generated_at=<ISO now из date +%FT%H:%M:%S>`, `status=generated`.
    g. Если генерация, переименование или обновление `image_path` упали — поставь `status=failed`, причину в отчёт, переходи к следующей строке.
 5. **Фаза публикации** — для каждой строки со `status=generated` по порядку `id`:

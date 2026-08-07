@@ -14,11 +14,13 @@ Updates in .env:
 import os
 import re
 import requests
+from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv()
+BASE_DIR = Path(__file__).resolve().parent
+load_dotenv(BASE_DIR / ".env")
 
-ENV_PATH = "/Users/irina/Desktop/claud_mod_3_2/.env"
+ENV_PATH = str(BASE_DIR / ".env")
 TOKEN_URL = "https://id.vk.com/oauth2/auth"
 
 
