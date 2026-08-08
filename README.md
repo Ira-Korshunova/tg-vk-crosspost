@@ -64,6 +64,7 @@
 │   ├── publish-to-social/SKILL.md      # публикатор: JSON → Telegram + VK
 │   └── orchestrate/SKILL.md            # оркестратор: queue.csv → генерация → публикация
 ├── publish.py              # публикация в TG/VK (--post <path>), проверка токенов, идемпотентность
+├── mcp_publisher.py        # MCP-сервер (FastMCP): publish.py как tools для AI-клиентов
 ├── image_generator.py      # генерация PNG через Qwen/DashScope
 ├── vk_token_refresh.py      # обновление VK access_token
 ├── vk_pkce_helper.py       # PKCE для первой VK ID OAuth 2.1 авторизации
@@ -140,10 +141,56 @@ generated --публикация упала-->  generated   (ретрай сле
 
 - **Оркестратор** на скиллах: CSV-очередь, фазы генерации/публикации, двойной дедуп, ретрай.
 - **Публикатор** `publish.py`: TG + VK, проверка токенов **до** постинга (чтобы не было частичной публикации), идемпотентность по `published_at`, CLI `--post`.
+- **MCP-сервер** `mcp_publisher.py`: те же возможности выставлены как tools для любого AI-клиента (см. ниже).
 - **VK-фото**: полная 3-шаговая загрузка (`getWallUploadServer → upload → saveWallPhoto`).
 - **VK ID OAuth 2.1**: PKCE-авторизация + авто-`refresh_token`.
 - **Генерация картинок**: Qwen/DashScope `wan2.6-t2i`, async-задача с поллингом результата.
 - Проверочный end-to-end прогон на реальных каналах — см. [`HOMEWORK_REPORT.md`](HOMEWORK_REPORT.md), секция 11.
+
+---
+
+## MCP-интерфейс (`mcp_publisher.py`)
+
+Поверх `publish.py` есть тонкий [MCP](https://modelcontextprotocol.io)-сервер (~150 строк на **FastMCP**) — «обёртка», которая выставляет кросс-постинг как **tools** для любого AI-клиента: Claude Desktop, Cursor, VS Code, ChatGPT. Код `publish.py` при этом **не меняется** — сервер просто переводит tool-calls модели в вызовы Python-функций.
+
+### Tools
+
+| Tool | Тип | Что делает |
+|---|---|---|
+| `list_queue()` | read-only | все строки `queue.csv` |
+| `list_pending_posts()` | read-only | посты в статусе `pending`/`generated`/`failed` |
+| `get_post_status(post_id)` | read-only | статус конкретного поста по id |
+| `check_tokens()` | read-only | проверка валидности токенов TG/VK (`getMe`/`groups.getById`, без постинга) |
+| `publish_post(post_path)` | **действие** | опубликовать один пост в TG+VK (идемпотентно) |
+| `publish_pending()` | **действие** | опубликовать все pending-посты по очереди |
+
+Безопасность: `publish_post`/`publish_pending` — side-effecting (реально постят), описания явно предупреждают модель; `post_path` валидируется (должен быть `.json` под `posts/`, защита от path traversal); `check_tokens` — read-only для диагностики.
+
+### Запуск
+
+```bash
+pip install -r requirements.txt   # добавлен fastmcp
+
+fastmcp dev mcp_publisher.py      # дебаг в MCP Inspector (браузер)
+fastmcp run mcp_publisher.py      # stdio-сервер для Claude Desktop/Cursor
+```
+
+### Подключение к Claude Desktop
+
+`~/Library/Application Support/Claude/claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "tg-vk-crosspost": {
+      "command": "python3",
+      "args": ["/Users/irina/Desktop/claud_mod_3_2/mcp_publisher.py"]
+    }
+  }
+}
+```
+
+Перезапустить Claude Desktop → модель видит все 6 tools и сама решает когда их звать (например: «опубликуй всё что в очереди» → `list_pending_posts` → `publish_pending`).
 
 ---
 
