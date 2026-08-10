@@ -1,1 +1,212 @@
-IyB0Zy12ay1jcm9zc3Bvc3Qg4oCUINC60L7QvdGC0LXQvdGCLdGE0LDQsdGA0LjQutCwINC60YDQvtGB0YEt0L/QvtGB0YLQuNC90LPQsCDQsiBUZWxlZ3JhbSDQuCBWSwoK0KHQuNGB0YLQtdC80LAg0LHQtdGA0ZHRgiDRgdGB0YvQu9C60YMg0L3QsCDRgdGC0LDRgtGM0Y4g4oaSINCz0LXQvdC10YDQuNGA0YPQtdGCINC/0L7RgdGCICjRgtC10LrRgdGCICsg0LrQsNGA0YLQuNC90LrQsCkg4oaSINC/0YPQsdC70LjQutGD0LXRgiAqKtC+0LTQvdC+0LLRgNC10LzQtdC90L3QvioqINCyIFRlbGVncmFtINC4INCS0JrQvtC90YLQsNC60YLQtS4g0KPQv9GA0LDQstC70Y/QtdGC0YHRjyDQvtC00L3QvtC5INGH0LXQu9C+0LLQtdC60L7Rh9C40YLQsNC10LzQvtC5INGC0LDQsdC70LjRhtC10Lkt0L7Rh9C10YDQtdC00YzRjiAoYHF1ZXVlLmNzdmApOiDQv9C+0LvQvtC20LjQuyDRgdGB0YvQu9C60YMg4oaSINC30LDQv9GD0YHRgtC40Lsg0L7RgNC60LXRgdGC0YDQsNGC0L7RgCDihpIg0L/QvtGB0YIg0YPRiNGR0Lsg0LIg0L7QsdC1INGB0L7RhtGB0LXRgtC4INGBINC30LDRidC40YLQvtC5INC+0YIg0LTRg9Cx0LvQtdC5INC4INGA0LXRgtGA0LDQtdC8LgoK0JDRgNGF0LjRgtC10LrRgtGD0YDQsCDQv9C+0YHRgtGA0L7QtdC90LAg0L3QsCAqKtGB0LrQuNC70LvQsNGFIENsYXVkZSBDb2RlKiogKNC+0YDQutC10YHRgtGA0LDRhtC40Y8pINC4ICoqUHl0aG9uLdGB0LrRgNC40L/RgtCw0YUqKiAo0L/Rg9Cx0LvQuNC60LDRhtC40Y8sINCz0LXQvdC10YDQsNGG0LjRjyDQutCw0YDRgtC40L3QvtC6LCBPQXV0aCBWSykuINCg0LXQttC40Lwg0YDRg9GH0L3QvtC5OiDRgNCw0LHQvtGC0LDQtdGCLCDQv9C+0LrQsCDQvtGC0LrRgNGL0YIgQ2xhdWRlIENvZGUuCgo+ICoq0JTQtdC80L4t0LTQvtC80LXQvToqKiDQsiDQutCw0YfQtdGB0YLQstC1INC40YHRgtC+0YfQvdC40LrQsCDQutC+0L3RgtC10L3RgtCwINC40YHQv9C+0LvRjNC30L7QstCw0L3RiyDRgdGC0LDRgtGM0Lgg0L/QviDRgtC10LzQtSDQs9C40L/QvdC+0LfQsCAocHN5LmVkdWNhdGlvbiwgcHN5LnN1LCB0ZWNoaW5zaWRlcikg4oCUINGB0LjRgdGC0LXQvNCwINC00L7QvNC10L3QvdC+LdC90LXQt9Cw0LLQuNGB0LjQvNCwLCDQvdCwINCy0YXQvtC00LUg0L/RgNC+0YHRgtC+INGB0YHRi9C70LrQsCDQvdCwINGB0YLQsNGC0YzRji4g0J/QvtC00YDQvtCx0L3QvtC1INC+0L/QuNGB0LDQvdC40LUg0LrRg9GA0YHQsCDQuCDQv9GA0L7QstC10YDQvtGH0L3Ri9C5INC/0YDQvtCz0L7QvSDigJQg0LIgW2BIT01FV09SS19SRVBPUlQubWRgXShIT01FV09SS19SRVBPUlQubWQpLgoKLS0tCgojIyDQp9GC0L4g0LTQtdC70LDQtdGCINGB0LjRgdGC0LXQvNCwCgpgYGAKICAgICAgICAgICAgICAgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkAogICAgICAgICAgICAgICAg4pSCICBxdWV1ZS5jc3YgICDilIIgIOKGkCDQv9C+0LvQvtC20LjQuyDRgdGC0YDQvtC60YM6IGlkLHVybCxwZW5kaW5nLCwsCiAgICAgICAgICAgICAgICDilIIgKNC40YHRgtC+0YfQvdC40LogICAg4pSCICAgICDRgNC10LTQsNC60YLQuNGA0YPQtdGC0YHRjyDRgNGD0LrQsNC80LggKyDQvtGA0LrQtdGB0YLRgNCw0YLQvtGA0L7QvAogICAgICAgICAgICAgICAg4pSCICDQv9GA0LDQstC00YspICAgICDilIIKICAgICAgICAgICAgICAgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAogICAgICAgICAgICAgICAgICAgICAgIOKUgiDRh9C40YLQsNC10YIv0L/QuNGI0LXRggogICAgICAgICAgICAgICAgICAgICAgIOKWvAogICAgICAgICAgICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAKICAgICAgICAgICAg4pSCICAvb3JjaGVzdHJhdGUgICAgICAg4pSCICDQvtGA0LrQtdGB0YLRgNCw0YLQvtGAOiDRgdGC0LDRgtGD0YHRiywg0LTQtdC00YPQvywg0L/QtdGA0LXQuNC80LXQvdC+0LLQsNC90LjQtQogICAgICAgICAgICDilJTilIDilIDilIDilKzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilKzilIDilIDilIDilJgKICAgcGVuZGluZyDihpIgICAg4pSCICAgICAgICAgICAgIOKUgiAg4oaQIGdlbmVyYXRlZCDihpIKICAgICAgICAgICAgICAgIOKWvCAgICAgICAgICAgICDilrwKICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCiAgIOKUgiAvaHlwbm8tcG9zdC0gICAgIOKUgiAgIOKUgiAvcHVibGlzaC10by1zb2NpYWwgICDilIIKICAg4pSCICB0by1zb2NpYWwgICAgICAg4pSCICAg4pSCICAo0YEg0L/Rg9GC0ZHQvCDQuiBKU09OKSAgICDilIIKICAg4pSCINCz0LXQvdC10YDQsNGG0LjRjyDQv9C+0YHRgtCwICDilIIgICDilIIgINC/0YPQsdC70LjQutCw0YbQuNGPINCyIFRHL1ZLICDilIIKICAg4pSCICsgUE5HIChRd2VuKSAgICAg4pSCICAg4pSCICDRh9C10YDQtdC3IHB1Ymxpc2gucHkgICAg4pSCCiAgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAogICAgICAgICAgICDilIIg0YHQvtGF0YDQsNC90Y/QtdGCICAgICAgICAgICAgICAgIOKUgiDQt9Cw0L/Rg9GB0LrQsNC10YIKICAgICAgICAgICAg4pa8ICAgICAgICAgICAgICAgICAgICAgICAgICDilrwKICAgICAgICBwb3N0cy8qLmpzb24gKyAqLnBuZyAgICAgIHB5dGhvbjMgcHVibGlzaC5weSAtLXBvc3QgPHBhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4oaSIFRlbGVncmFtICsgVksgQVBJLCDRgdGC0LDQstC40YIgcHVibGlzaGVkX2F0CmBgYAoKLSAqKmBxdWV1ZS5jc3ZgKiog4oCUINC40YHRgtC+0YfQvdC40Log0L/RgNCw0LLQtNGLOiBgaWQsdXJsLHN0YXR1cyxwb3N0X3BhdGgsZ2VuZXJhdGVkX2F0LHB1Ymxpc2hlZF9hdGAuINCh0YLQsNGC0YPRgdGLOiBgcGVuZGluZyDihpIgZ2VuZXJhdGVkIOKGkiBwdWJsaXNoZWRgIChgZmFpbGVkYCDQv9GA0Lgg0YHQsdC+0LUg0LPQtdC90LXRgNCw0YbQuNC4KS4KLSAqKtCU0LLQvtC50L3QvtC5INC00LXQtNGD0L86Kiog0L/QviBgdXJsYCDQsiBDU1YgKyDQv9C+IGBwdWJsaXNoZWRfYXRgINCyIEpTT04uCi0gKirQoNC10YLRgNCw0Lkg0LHQtdC3INC/0LXRgNC10LPQtdC90LXRgNCw0YbQuNC4OioqINC/0YDQuCDRgdCx0L7QtSDQv9GD0LHQu9C40LrQsNGG0LjQuCAo0L/RgNC+0YLRg9GFINGC0L7QutC10L0pINGB0YLRgNC+0LrQsCDQvtGB0YLQsNGR0YLRgdGPIGBnZW5lcmF0ZWRgLCDRgdC70LXQtNGD0Y7RidC40LkgYC9vcmNoZXN0cmF0ZWAg0LTQvtGA0LXRgtGA0LDQuNGCINGC0L7Qu9GM0LrQviDQv9GD0LHQu9C40LrQsNGG0LjRji4KCi0tLQoKIyMg0KHRgtC10LoKCnwg0KHQu9C+0LkgfCDQotC10YXQvdC+0LvQvtCz0LjRjyB8CnwtLS18LS0tfAp8INCe0YDQutC10YHRgtGA0LDRhtC40Y8gfCBDbGF1ZGUgQ29kZSBTa2lsbHMgKGAvb3JjaGVzdHJhdGVgLCBgL2h5cG5vLXBvc3QtdG8tc29jaWFsYCwgYC9wdWJsaXNoLXRvLXNvY2lhbGApIHwKfCDQk9C10L3QtdGA0LDRhtC40Y8g0YLQtdC60YHRgtCwIHwgTExNICjRh9C10YDQtdC3INGB0LrQuNC70LssINGH0LjRgtCw0LXRgiDRgdGC0LDRgtGM0Y4g0YfQtdGA0LXQtyBXZWJGZXRjaCkgfAp8INCT0LXQvdC10YDQsNGG0LjRjyDQutCw0YDRgtC40L3QvtC6IHwgKipRd2VuIC8gRGFzaFNjb3BlKiogKGB3YW4yLjYtdDJpYCwgYXN5bmMt0LfQsNC00LDRh9CwICsg0L/QvtC70LvQuNC90LMpIHwKfCDQn9GD0LHQu9C40LrQsNGG0LjRjyBURyB8IFRlbGVncmFtIEJvdCBBUEkgKGBzZW5kUGhvdG9gL2BzZW5kTWVzc2FnZWApIHwKfCDQn9GD0LHQu9C40LrQsNGG0LjRjyBWSyB8IFZLIEFQSSAoYHdhbGwucG9zdGAgKyAzLdGI0LDQs9C+0LLQsNGPINC30LDQs9GA0YPQt9C60LAg0YTQvtGC0L46IGBnZXRXYWxsVXBsb2FkU2VydmVyIOKGkiB1cGxvYWQg4oaSIHNhdmVXYWxsUGhvdG9gKSB8Cnwg0JDQstGC0L7RgNC40LfQsNGG0LjRjyBWSyB8ICoqVksgSUQgT0F1dGggMi4xINGBIFBLQ0UqKiArINCw0LLRgtC+LdC+0LHQvdC+0LLQu9C10L3QuNC1IGBhY2Nlc3NfdG9rZW5gINGH0LXRgNC10LcgYHJlZnJlc2hfdG9rZW5gIHwKfCDQpdGA0LDQvdC10L3QuNC1IHwgQ1NWIChgcXVldWUuY3N2YCksIEpTT04t0L/QvtGB0YLRiyDQsiBgcG9zdHMvYCB8CgotLS0KCiMjINCh0YLRgNGD0LrRgtGD0YDQsCDQv9GA0L7QtdC60YLQsAoKYGBgCi4K4pSc4pSA4pSAIC5jbGF1ZGUvc2tpbGxzLwrilIIgICDilJzilIDilIAgaHlwbm8tcG9zdC10by1zb2NpYWwvU0tJTEwubWQgICAjINCz0LXQvdC10YDQsNGC0L7RgDog0YHRgdGL0LvQutCwIOKGkiBKU09OLdC/0L7RgdGCICsgUE5HCuKUgiAgIOKUnOKUgOKUgCBwdWJsaXNoLXRvLXNvY2lhbC9TS0lMTC5tZCAgICAgICMg0L/Rg9Cx0LvQuNC60LDRgtC+0YA6IEpTT04g4oaSIFRlbGVncmFtICsgVksK4pSCICAg4pSU4pSA4pSAIG9yY2hlc3RyYXRlL1NLSUxMLm1kICAgICAgICAgICAgIyDQvtGA0LrQtdGB0YLRgNCw0YLQvtGAOiBxdWV1ZS5jc3Yg4oaSINCz0LXQvdC10YDQsNGG0LjRjyDihpIg0L/Rg9Cx0LvQuNC60LDRhtC40Y8K4pSc4pSA4pSAIHB1Ymxpc2gucHkgICAgICAgICAgICAgICMg0L/Rg9Cx0LvQuNC60LDRhtC40Y8g0LIgVEcvVksgKC0tcG9zdCA8cGF0aD4pLCDQv9GA0L7QstC10YDQutCwINGC0L7QutC10L3QvtCyLCDQuNC00LXQvNC/0L7RgtC10L3RgtC90L7RgdGC0YwK4pSc4pSA4pSAIG1jcF9wdWJsaXNoZXIucHkgICAgICAgICMgTUNQLdGB0LXRgNCy0LXRgCAoRmFzdE1DUCk6IHB1Ymxpc2gucHkg0LrQsNC6IHRvb2xzINC00LvRjyBBSS3QutC70LjQtdC90YLQvtCyCuKUnOKUgOKUgCBpbWFnZV9nZW5lcmF0b3IucHkgICAgICAjINCz0LXQvdC10YDQsNGG0LjRjyBQTkcg0YfQtdGA0LXQtyBRd2VuL0Rhc2hTY29wZQrilJzilIDilIAgdmtfdG9rZW5fcmVmcmVzaC5weSAgICAgICMg0L7QsdC90L7QstC70LXQvdC40LUgVksgYWNjZXNzX3Rva2VuCuKUnOKUgOKUgCB2a19wa2NlX2hlbHBlci5weSAgICAgICAjIFBLQ0Ug0LTQu9GPINC/0LXRgNCy0L7QuSBWSyBJRCBPQXV0aCAyLjEg0LDQstGC0L7RgNC40LfQsNGG0LjQuArilJzilIDilIAgdmtfZXhjaGFuZ2VfY29kZS5weSAgICAgIyDQvtCx0LzQtdC9IGNvZGUg0L3QsCBhY2Nlc3MvcmVmcmVzaCB0b2tlbgrilJzilIDilIAgcXVldWUuY3N2ICAgICAgICAgICAgICAgIyDRgtCw0LHQu9C40YbQsC3QvtGH0LXRgNC10LTRjCAo0LjRgdGC0L7Rh9C90LjQuiDQv9GA0LDQstC00YspCuKUnOKUgOKUgCBwb3N0cy8gICAgICAgICAgICAgICAgICAjIEpTT04t0L/QvtGB0YLRiyDQuCBQTkcgKNC90LUg0LIgZ2l0KQrilJzilIDilIAgLmVudi5leGFtcGxlICAgICAgICAgICAgIyDRiNCw0LHQu9C+0L0g0LrQu9GO0YfQtdC5CuKUnOKUgOKUgCBIT01FV09SS19SRVBPUlQubWQgICAgICAjINC/0L7QtNGA0L7QsdC90YvQuSDQvtGC0YfRkdGCINC/0L4g0LDRgNGF0LjRgtC10LrRgtGD0YDQtSDQuCDQv9GA0L7QstC10YDQvtGH0L3QvtC80YMg0L/RgNC+0LPQvtC90YMK4pSc4pSA4pSAIENPTlRFWFQubWQgICAgICAgICAgICAgICMg0YLQtdGF0L3QuNGH0LXRgdC60LjQuSDQutC+0L3RgtC10LrRgdGCCuKUlOKUgOKUgCBzY3JlZW5zaG90cy8gICAgICAgICAgICAjINGB0LrRgNC40L3RiNC+0YLRiyDQvtC/0YPQsdC70LjQutC+0LLQsNC90L3Ri9GFINC/0L7RgdGC0L7QsgpgYGAKCi0tLQoKIyMg0KPRgdGC0LDQvdC+0LLQutCwINC4INC30LDQv9GD0YHQugoKIyMjIDEuINCX0LDQstC40YHQuNC80L7RgdGC0LgKCmBgYGJhc2gKcGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzLnR4dCAgIyByZXF1ZXN0cywgcHl0aG9uLWRvdGVudgpgYGAKCiMjIyAyLiDQmtC70Y7Rh9C4IChgLmVudmAg0L/QviDRiNCw0LHQu9C+0L3RgyBgLmVudi5leGFtcGxlYCkKCmBgYGJhc2gKY3AgLmVudi5leGFtcGxlIC5lbnYKIyDQt9Cw0L/QvtC70L3QuNGC0Yw6CiMgICBURUxFR1JBTV9CT1RfVE9LRU4sIFRFTEVHUkFNX0NIQU5ORUxfSUQKIyAgIFZLX0FDQ0VTU19UT0tFTiwgVktfR1JPVVBfSUQKIyAgIFZLX0NMSUVOVF9JRCwgVktfUkVGUkVTSF9UT0tFTiwgVktfREVWSUNFX0lEICAgIyDQtNC70Y8g0LDQstGC0L7QvtCx0L3QvtCy0LvQtdC90LjRjyBWSy3RgtC+0LrQtdC90LAKIyAgIFFXRU5fQVBJX0tFWSwgQkFTRV9VUkwsIElNQUdFX01PREVMCmBgYAoK0KHQutC40LvQu9GLINC90LjQutC+0LPQtNCwINC90LUg0YfQuNGC0LDRjtGCINC4INC90LUg0L/QuNGI0YPRgiBgLmVudmAg4oCUINGC0L7Qu9GM0LrQviBQeXRob24t0YHQutGA0LjQv9GC0Ysg0YfQtdGA0LXQtyBgcHl0aG9uLWRvdGVudmAuIGAuZW52YCDQuNGB0LrQu9GO0YfRkdC9INC40LcgZ2l0LgoKIyMjIDMuINCf0L7Qu9C+0LbQuNGC0Ywg0YHRgdGL0LvQutGDINCyINC+0YfQtdGA0LXQtNGMCgrQlNC+0L/QuNGB0LDRgtGMINGB0YLRgNC+0LrRgyDQsiBgcXVldWUuY3N2YCAo0L7RgdGC0LDQu9GM0L3Ri9C1INC/0L7Qu9GPINC/0YPRgdGC0YvQvNC4KToKCmBgYGNzdgpwb3N0LTQsaHR0cHM6Ly9leGFtcGxlLmNvbS9hcnRpY2xlLHBlbmRpbmcsLCwKYGBgCgojIyMgNC4g0JfQsNC/0YPRgdGC0LjRgtGMINC+0YDQutC10YHRgtGA0LDRgtC+0YAKCtCSIENsYXVkZSBDb2RlICjRgSBgYWNjZXB0IGVkaXRzIG9uYCk6CgpgYGB0ZXh0Ci9vcmNoZXN0cmF0ZQpgYGAKCtCe0YDQutC10YHRgtGA0LDRgtC+0YAg0L3QsNC50LTRkdGCINGB0YLRgNC+0LrRgyBgcGVuZGluZ2AsINGB0LPQtdC90LXRgNC40YDRg9C10YIg0L/QvtGB0YIgKyDQutCw0YDRgtC40L3QutGDIChgL2h5cG5vLXBvc3QtdG8tc29jaWFsYCksINC+0L/Rg9Cx0LvQuNC60YPQtdGCINCyIFRHINC4IFZLIChgL3B1Ymxpc2gtdG8tc29jaWFsYCksINC/0L7RgdGC0LDQstC40YIg0LIgYHF1ZXVlLmNzdmAgYHN0YXR1cz1wdWJsaXNoZWRgLgoKIyMjIDUuINCf0YDQvtCy0LXRgNC40YLRjAoKYGBgYmFzaApjb2x1bW4gLXQgLXMsIHF1ZXVlLmNzdiAgICAgIyDRgdGC0LDRgtGD0YEg0LTQvtC70LbQtdC9INGB0YLQsNGC0YwgcHVibGlzaGVkCmxzIHBvc3RzLyAgICAgICAgICAgICAgICAgICAjINGA0Y/QtNC+0Lwg0YEgSlNPTiDQu9C10LbQuNGCIFBORyDRgSDRgtC10Lwg0LbQtSDQuNC80LXQvdC10LwKYGBgCgotLS0KCiMjINCW0LjQt9C90LXQvdC90YvQuSDRhtC40LrQuyDRgdGC0YDQvtC60LgKCmBgYApwZW5kaW5nICAtLdCz0LXQvdC10YDQsNGG0LjRjyBPSy0tPiAgZ2VuZXJhdGVkICAtLdC/0YPQsdC70LjQutCw0YbQuNGPIE9LLS0+ICBwdWJsaXNoZWQKcGVuZGluZyAgLS3Qs9C10L3QtdGA0LDRhtC40Y8g0YPQv9Cw0LvQsC0tPiAgZmFpbGVkCmdlbmVyYXRlZCAtLdC/0YPQsdC70LjQutCw0YbQuNGPINGD0L/QsNC70LAtLT4gIGdlbmVyYXRlZCAgICjRgNC10YLRgNCw0Lkg0YHQu9C10LTRg9GO0YnQuNC8IC9vcmNoZXN0cmF0ZSwg0LHQtdC3INC/0LXRgNC10LPQtdC90LXRgNCw0YbQuNC4KQpgYGAKCi0tLQoKIyMg0KfRgtC+INGA0LXQsNC70LjQt9C+0LLQsNC90L4KCi0gKirQntGA0LrQtdGB0YLRgNCw0YLQvtGAKiog0L3QsCDRgdC60LjQu9C70LDRhTogQ1NWLdC+0YfQtdGA0LXQtNGMLCDRhNCw0LfRiyDQs9C10L3QtdGA0LDRhtC40Lgv0L/Rg9Cx0LvQuNC60LDRhtC40LgsINC00LLQvtC50L3QvtC5INC00LXQtNGD0L8sINGA0LXRgtGA0LDQuS4KLSAqKtCf0YPQsdC70LjQutCw0YLQvtGAKiogYHB1Ymxpc2gucHlgOiBURyArIFZLLCDQv9GA0L7QstC10YDQutCwINGC0L7QutC10L3QvtCyICoq0LTQvioqINC/0L7RgdGC0LjQvdCz0LAgKNGH0YLQvtCx0Ysg0L3QtSDQsdGL0LvQviDRh9Cw0YHRgtC40YfQvdC+0Lkg0L/Rg9Cx0LvQuNC60LDRhtC40LgpLCDQuNC00LXQvNC/0L7RgtC10L3RgtC90L7RgdGC0Ywg0L/QviBgcHVibGlzaGVkX2F0YCwgQ0xJIGAtLXBvc3RgLgotICoqTUNQLdGB0LXRgNCy0LXRgCoqIGBtY3BfcHVibGlzaGVyLnB5YDog0YLQtSDQttC1INCy0L7Qt9C80L7QttC90L7RgdGC0Lgg0LLRi9GB0YLQsNCy0LvQtdC90Ysg0LrQsNC6IHRvb2xzINC00LvRjyDQu9GO0LHQvtCz0L4gQUkt0LrQu9C40LXQvdGC0LAgKNGB0LwuINC90LjQttC1KS4KLSAqKlZLLdGE0L7RgtC+Kio6INC/0L7Qu9C90LDRjyAzLdGI0LDQs9C+0LLQsNGPINC30LDQs9GA0YPQt9C60LAgKGBnZXRXYWxsVXBsb2FkU2VydmVyIOKGkiB1cGxvYWQg4oaSIHNhdmVXYWxsUGhvdG9gKS4KLSAqKlZLIElEIE9BdXRoIDIuMSoqOiBQS0NFLdCw0LLRgtC+0YDQuNC30LDRhtC40Y8gKyDQsNCy0YLQvi1gcmVmcmVzaF90b2tlbmAuCi0gKirQk9C10L3QtdGA0LDRhtC40Y8g0LrQsNGA0YLQuNC90L7QuioqOiBRd2VuL0Rhc2hTY29wZSBgd2FuMi42LXQyaWAsIGFzeW5jLdC30LDQtNCw0YfQsCDRgSDQv9C+0LvQu9C40L3Qs9C+0Lwg0YDQtdC30YPQu9GM0YLQsNGC0LAuCi0g0J/RgNC+0LLQtdGA0L7Rh9C90YvQuSBlbmQtdG8tZW5kINC/0YDQvtCz0L7QvSDQvdCwINGA0LXQsNC70YzQvdGL0YUg0LrQsNC90LDQu9Cw0YUg4oCUINGB0LwuIFtgSE9NRVdPUktfUkVQT1JULm1kYF0oSE9NRVdPUktfUkVQT1JULm1kKSwg0YHQtdC60YbQuNGPIDExLgoKLS0tCgojIyBNQ1At0LjQvdGC0LXRgNGE0LXQudGBIChgbWNwX3B1Ymxpc2hlci5weWApCgrQn9C+0LLQtdGA0YUgYHB1Ymxpc2gucHlgINC10YHRgtGMINGC0L7QvdC60LjQuSBbTUNQXShodHRwczovL21vZGVsY29udGV4dHByb3RvY29sLmlvKS3RgdC10YDQstC10YAgKH4xNTAg0YHRgtGA0L7QuiDQvdCwICoqRmFzdE1DUCoqKSDigJQgwqvQvtCx0ZHRgNGC0LrQsMK7LCDQutC+0YLQvtGA0LDRjyDQstGL0YHRgtCw0LLQu9GP0LXRgiDQutGA0L7RgdGBLdC/0L7RgdGC0LjQvdCzINC60LDQuiAqKnRvb2xzKiog0LTQu9GPINC70Y7QsdC+0LPQviBBSS3QutC70LjQtdC90YLQsDogQ2xhdWRlIERlc2t0b3AsIEN1cnNvciwgVlMgQ29kZSwgQ2hhdEdQVC4g0JrQvtC0IGBwdWJsaXNoLnB5YCDQv9GA0Lgg0Y3RgtC+0LwgKirQvdC1INC80LXQvdGP0LXRgtGB0Y8qKiDigJQg0YHQtdGA0LLQtdGAINC/0YDQvtGB0YLQviDQv9C10YDQtdCy0L7QtNC40YIgdG9vbC1jYWxscyDQvNC+0LTQtdC70Lgg0LIg0LLRi9C30L7QstGLIFB5dGhvbi3RhNGD0L3QutGG0LjQuS4KCiMjIyBUb29scwoKfCBUb29sIHwg0KLQuNC/IHwg0KfRgtC+INC00LXQu9Cw0LXRgiB8CnwtLS18LS0tfC0tLXwKfCBgbGlzdF9xdWV1ZSgpYCB8IHJlYWQtb25seSB8INCy0YHQtSDRgdGC0YDQvtC60LggYHF1ZXVlLmNzdmAgfAp8IGBsaXN0X3BlbmRpbmdfcG9zdHMoKWAgfCByZWFkLW9ubHkgfCDQv9C+0YHRgtGLINCyINGB0YLQsNGC0YPRgdC1IGBwZW5kaW5nYC9gZ2VuZXJhdGVkYC9gZmFpbGVkYCB8CnwgYGdldF9wb3N0X3N0YXR1cyhwb3N0X2lkKWAgfCByZWFkLW9ubHkgfCDRgdGC0LDRgtGD0YEg0LrQvtC90LrRgNC10YLQvdC+0LPQviDQv9C+0YHRgtCwINC/0L4gaWQgfAp8IGBjaGVja190b2tlbnMoKWAgfCByZWFkLW9ubHkgfCDQv9GA0L7QstC10YDQutCwINCy0LDQu9C40LTQvdC+0YHRgtC4INGC0L7QutC10L3QvtCyIFRHL1ZLIChgZ2V0TWVgL2Bncm91cHMuZ2V0QnlJZGAsINCx0LXQtyDQv9C+0YHRgtC40L3Qs9CwKSB8CnwgYHB1Ymxpc2hfcG9zdChwb3N0X3BhdGgpYCB8ICoq0LTQtdC50YHRgtCy0LjQtSoqIHwg0L7Qv9GD0LHQu9C40LrQvtCy0LDRgtGMINC+0LTQuNC9INC/0L7RgdGCINCyIFRHK1ZLICjQuNC00LXQvNC/0L7RgtC10L3RgtC90L4pIHwKfCBgcHVibGlzaF9wZW5kaW5nKClgIHwgKirQtNC10LnRgdGC0LLQuNC1KiogfCDQvtC/0YPQsdC70LjQutC+0LLQsNGC0Ywg0LLRgdC1IHBlbmRpbmct0L/QvtGB0YLRiyDQv9C+INC+0YfQtdGA0LXQtNC4IHwKCtCR0LXQt9C+0L/QsNGB0L3QvtGB0YLRjDogYHB1Ymxpc2hfcG9zdGAvYHB1Ymxpc2hfcGVuZGluZ2Ag4oCUIHNpZGUtZWZmZWN0aW5nICjRgNC10LDQu9GM0L3QviDQv9C+0YHRgtGP0YIpLCDQvtC/0LjRgdCw0L3QuNGPINGP0LLQvdC+INC/0YDQtdC00YPQv9GA0LXQttC00LDRjtGCINC80L7QtNC10LvRjDsgYHBvc3RfcGF0aGAg0LLQsNC70LjQtNC40YDRg9C10YLRgdGPICjQtNC+0LvQttC10L0g0LHRi9GC0YwgYC5qc29uYCDQv9C+0LQgYHBvc3RzL2AsINC30LDRidC40YLQsCDQvtGCIHBhdGggdHJhdmVyc2FsKTsgYGNoZWNrX3Rva2Vuc2Ag4oCUIHJlYWQtb25seSDQtNC70Y8g0LTQuNCw0LPQvdC+0YHRgtC40LrQuC4KCiMjIyDQl9Cw0L/Rg9GB0LoKCmBgYGJhc2gKcGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzLnR4dCAgICMg0LTQvtCx0LDQstC70LXQvSBmYXN0bWNwCgpmYXN0bWNwIGRldiBtY3BfcHVibGlzaGVyLnB5ICAgICAgIyDQtNC10LHQsNCzINCyIE1DUCBJbnNwZWN0b3IgKNCx0YDQsNGD0LfQtdGAKQpmYXN0bWNwIHJ1biBtY3BfcHVibGlzaGVyLnB5ICAgICAgIyBzdGRpby3RgdC10YDQstC10YAg0LTQu9GPIENsYXVkZSBEZXNrdG9wL0N1cnNvcgpgYGAKCiMjIyDQn9C+0LTQutC70Y7Rh9C10L3QuNC1INC6IENsYXVkZSBEZXNrdG9wCgpgfi9MaWJyYXJ5L0FwcGxpY2F0aW9uIFN1cHBvcnQvQ2xhdWRlL2NsYXVkZV9kZXNrdG9wX2NvbmZpZy5qc29uYDoKCmBgYGpzb24KewogICJtY3BTZXJ2ZXJzIjogewogICAgInRnLXZrLWNyb3NzcG9zdCI6IHsKICAgICAgImNvbW1hbmQiOiAicHl0aG9uMyIsCiAgICAgICJhcmdzIjogWyIvVXNlcnMvaXJpbmEvRGVza3RvcC9jbGF1ZF9tb2RfM18yL21jcF9wdWJsaXNoZXIucHkiXQogICAgfQogIH0KfQpgYGAKCtCf0LXRgNC10LfQsNC/0YPRgdGC0LjRgtGMIENsYXVkZSBEZXNrdG9wIOKGkiDQvNC+0LTQtdC70Ywg0LLQuNC00LjRgiDQstGB0LUgNiB0b29scyDQuCDRgdCw0LzQsCDRgNC10YjQsNC10YIg0LrQvtCz0LTQsCDQuNGFINC30LLQsNGC0YwgKNC90LDQv9GA0LjQvNC10YA6IMKr0L7Qv9GD0LHQu9C40LrRg9C5INCy0YHRkSDRh9GC0L4g0LIg0L7Rh9C10YDQtdC00LjCuyDihpIgYGxpc3RfcGVuZGluZ19wb3N0c2Ag4oaSIGBwdWJsaXNoX3BlbmRpbmdgKS4KCi0tLQoKIyMg0KHQutGA0LjQvdGI0L7RgtGLCgrQntC00LjQvSDQuCDRgtC+0YIg0LbQtSDQv9C+0YHRgiwg0L7Qv9GD0LHQu9C40LrQvtCy0LDQvdC90YvQuSDRgdC40YHRgtC10LzQvtC5INC+0LTQvdC+0LLRgNC10LzQtdC90L3QviDQsiDQvtCx0LXQuNGFINGB0L7RhtGB0LXRgtGP0YUgKNGBINC60LDRgNGC0LjQvdC60L7QuSDRh9C10YDQtdC3IFF3ZW4vRGFzaFNjb3BlKToKCjxwIGFsaWduPSJjZW50ZXIiPgogIDxpbWcgYWx0PSLQn9C+0YHRgiwg0L7Qv9GD0LHQu9C40LrQvtCy0LDQvdC90YvQuSDQstC+INCS0JrQvtC90YLQsNC60YLQtSIgc3JjPSJzY3JlZW5zaG90cy8wOC53ZWJwIiB3aWR0aD0iMzMwIj4KICA8aW1nIGFsdD0i0KLQvtGCINC20LUg0L/QvtGB0YIg0LIgVGVsZWdyYW0iIHNyYz0ic2NyZWVuc2hvdHMvMTFfY3JvcHBlZC53ZWJwIiB3aWR0aD0iMzMwIj4KPC9wPgoK0JLRgdC1INGB0LrRgNC40L3RiNC+0YLRiyDQvtC/0YPQsdC70LjQutC+0LLQsNC90L3Ri9GFINC/0L7RgdGC0L7QsiDigJQg0LIgYHNjcmVlbnNob3RzL2AgKNC/0L7QtNC/0LjRgdC4INCyIGBzY3JlZW5zaG90cy9jYXB0aW9ucy5tZGApLgoKLS0tCgojIyDQm9C40YbQtdC90LfQuNGPCgpNSVQu
+# tg-vk-crosspost — контент-фабрика кросс-постинга в Telegram и VK
+
+Система берёт ссылку на статью → генерирует пост (текст + картинка) → публикует **одновременно** в Telegram и ВКонтакте. Управляется одной человекочитаемой таблицей-очередью (`queue.csv`): положил ссылку → запустил оркестратор → пост ушёл в обе соцсети с защитой от дублей и ретраем.
+
+Архитектура построена на **скиллах Claude Code** (оркестрация) и **Python-скриптах** (публикация, генерация картинок, OAuth VK). Режим ручной: работает, пока открыт Claude Code.
+
+> **Демо-домен:** в качестве источника контента использованы статьи по теме гипноза (psy.education, psy.su, techinsider) — система доменно-независима, на входе просто ссылка на статью. Подробное описание курса и проверочный прогон — в [`HOMEWORK_REPORT.md`](HOMEWORK_REPORT.md).
+
+---
+
+## Что делает система
+
+```
+                ┌──────────────┐
+                │  queue.csv   │  ← положил строку: id,url,pending,,,
+                │ (источник    │     редактируется руками + оркестратором
+                │  правды)     │
+                └──────┬───────┘
+                       │ читает/пишет
+                       ▼
+            ┌────────────────────┐
+            │  /orchestrate       │  оркестратор: статусы, дедуп, переименование
+            └───┬─────────────┬───┘
+   pending →    │             │  ← generated →
+                ▼             ▼
+   ┌──────────────────┐   ┌──────────────────────┐
+   │ /hypno-post-     │   │ /publish-to-social   │
+   │  to-social       │   │  (с путём к JSON)    │
+   │ генерация поста  │   │  публикация в TG/VK  │
+   │ + PNG (Qwen)     │   │  через publish.py    │
+   └────────┬─────────┘   └──────────┬───────────┘
+            │ сохраняет                │ запускает
+            ▼                          ▼
+        posts/*.json + *.png      python3 publish.py --post <path>
+                                   → Telegram + VK API, ставит published_at
+```
+
+- **`queue.csv`** — источник правды: `id,url,status,post_path,generated_at,published_at`. Статусы: `pending → generated → published` (`failed` при сбое генерации).
+- **Двойной дедуп:** по `url` в CSV + по `published_at` в JSON.
+- **Ретрай без перегенерации:** при сбое публикации (протух токен) строка остаётся `generated`, следующий `/orchestrate` доретраит только публикацию.
+
+---
+
+## Стек
+
+| Слой | Технология |
+|---|---|
+| Оркестрация | Claude Code Skills (`/orchestrate`, `/hypno-post-to-social`, `/publish-to-social`) |
+| Генерация текста | LLM (через скилл, читает статью через WebFetch) |
+| Генерация картинок | **Qwen / DashScope** (`wan2.6-t2i`, async-задача + поллинг) |
+| Публикация TG | Telegram Bot API (`sendPhoto`/`sendMessage`) |
+| Публикация VK | VK API (`wall.post` + 3-шаговая загрузка фото: `getWallUploadServer → upload → saveWallPhoto`) |
+| Авторизация VK | **VK ID OAuth 2.1 с PKCE** + авто-обновление `access_token` через `refresh_token` |
+| Хранение | CSV (`queue.csv`), JSON-посты в `posts/` |
+
+---
+
+## Структура проекта
+
+```
+.
+├── .claude/skills/
+│   ├── hypno-post-to-social/SKILL.md   # генератор: ссылка → JSON-пост + PNG
+│   ├── publish-to-social/SKILL.md      # публикатор: JSON → Telegram + VK
+│   └── orchestrate/SKILL.md            # оркестратор: queue.csv → генерация → публикация
+├── publish.py              # публикация в TG/VK (--post <path>), проверка токенов, идемпотентность
+├── mcp_publisher.py        # MCP-сервер (FastMCP): publish.py как tools для AI-клиентов
+├── image_generator.py      # генерация PNG через Qwen/DashScope
+├── vk_token_refresh.py      # обновление VK access_token
+├── vk_pkce_helper.py       # PKCE для первой VK ID OAuth 2.1 авторизации
+├── vk_exchange_code.py     # обмен code на access/refresh token
+├── queue.csv               # таблица-очередь (источник правды)
+├── posts/                  # JSON-посты и PNG (не в git)
+├── .env.example            # шаблон ключей
+├── HOMEWORK_REPORT.md      # подробный отчёт по архитектуре и проверочному прогону
+├── CONTEXT.md              # технический контекст
+└── screenshots/            # скриншоты опубликованных постов
+```
+
+---
+
+## Установка и запуск
+
+### 1. Зависимости
+
+```bash
+pip install -r requirements.txt  # requests, python-dotenv
+```
+
+### 2. Ключи (`.env` по шаблону `.env.example`)
+
+```bash
+cp .env.example .env
+# заполнить:
+#   TELEGRAM_BOT_TOKEN, TELEGRAM_CHANNEL_ID
+#   VK_ACCESS_TOKEN, VK_GROUP_ID
+#   VK_CLIENT_ID, VK_REFRESH_TOKEN, VK_DEVICE_ID   # для автообновления VK-токена
+#   QWEN_API_KEY, BASE_URL, IMAGE_MODEL
+```
+
+Скиллы никогда не читают и не пишут `.env` — только Python-скрипты через `python-dotenv`. `.env` исключён из git.
+
+### 3. Положить ссылку в очередь
+
+Дописать строку в `queue.csv` (остальные поля пустыми):
+
+```csv
+post-4,https://example.com/article,pending,,,
+```
+
+### 4. Запустить оркестратор
+
+В Claude Code (с `accept edits on`):
+
+```text
+/orchestrate
+```
+
+Оркестратор найдёт строку `pending`, сгенерирует пост + картинку (`/hypno-post-to-social`), опубликует в TG и VK (`/publish-to-social`), поставит в `queue.csv` `status=published`.
+
+### 5. Проверить
+
+```bash
+column -t -s, queue.csv     # статус должен стать published
+ls posts/                   # рядом с JSON лежит PNG с тем же именем
+```
+
+---
+
+## Жизненный цикл строки
+
+```
+pending  --генерация OK-->  generated  --публикация OK-->  published
+pending  --генерация упала-->  failed
+generated --публикация упала-->  generated   (ретрай следующим /orchestrate, без перегенерации)
+```
+
+---
+
+## Что реализовано
+
+- **Оркестратор** на скиллах: CSV-очередь, фазы генерации/публикации, двойной дедуп, ретрай.
+- **Публикатор** `publish.py`: TG + VK, проверка токенов **до** постинга (чтобы не было частичной публикации), идемпотентность по `published_at`, CLI `--post`.
+- **MCP-сервер** `mcp_publisher.py`: те же возможности выставлены как tools для любого AI-клиента (см. ниже).
+- **VK-фото**: полная 3-шаговая загрузка (`getWallUploadServer → upload → saveWallPhoto`).
+- **VK ID OAuth 2.1**: PKCE-авторизация + авто-`refresh_token`.
+- **Генерация картинок**: Qwen/DashScope `wan2.6-t2i`, async-задача с поллингом результата.
+- Проверочный end-to-end прогон на реальных каналах — см. [`HOMEWORK_REPORT.md`](HOMEWORK_REPORT.md), секция 11.
+
+---
+
+## MCP-интерфейс (`mcp_publisher.py`)
+
+Поверх `publish.py` есть тонкий [MCP](https://modelcontextprotocol.io)-сервер (~150 строк на **FastMCP**) — «обёртка», которая выставляет кросс-постинг как **tools** для любого AI-клиента: Claude Desktop, Cursor, VS Code, ChatGPT. Код `publish.py` при этом **не меняется** — сервер просто переводит tool-calls модели в вызовы Python-функций.
+
+### Tools
+
+| Tool | Тип | Что делает |
+|---|---|---|
+| `list_queue()` | read-only | все строки `queue.csv` |
+| `list_pending_posts()` | read-only | посты в статусе `pending`/`generated`/`failed` |
+| `get_post_status(post_id)` | read-only | статус конкретного поста по id |
+| `check_tokens()` | read-only | проверка валидности токенов TG/VK (`getMe`/`groups.getById`, без постинга) |
+| `publish_post(post_path)` | **действие** | опубликовать один пост в TG+VK (идемпотентно) |
+| `publish_pending()` | **действие** | опубликовать все pending-посты по очереди |
+
+Безопасность: `publish_post`/`publish_pending` — side-effecting (реально постят), описания явно предупреждают модель; `post_path` валидируется (должен быть `.json` под `posts/`, защита от path traversal); `check_tokens` — read-only для диагностики.
+
+### Запуск
+
+```bash
+pip install -r requirements.txt   # добавлен fastmcp
+
+fastmcp dev mcp_publisher.py      # дебаг в MCP Inspector (браузер)
+fastmcp run mcp_publisher.py      # stdio-сервер для Claude Desktop/Cursor
+```
+
+### Подключение к Claude Desktop
+
+`~/Library/Application Support/Claude/claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "tg-vk-crosspost": {
+      "command": "python3",
+      "args": ["/Users/irina/Desktop/claud_mod_3_2/mcp_publisher.py"]
+    }
+  }
+}
+```
+
+Перезапустить Claude Desktop → модель видит все 6 tools и сама решает когда их звать (например: «опубликуй всё что в очереди» → `list_pending_posts` → `publish_pending`).
+
+---
+
+## Скриншоты
+
+Один и тот же пост, опубликованный системой одновременно в обеих соцсетях (с картинкой через Qwen/DashScope):
+
+<p align="center">
+  <img alt="Пост, опубликованный во ВКонтакте" src="screenshots/08.webp" width="330">
+  <img alt="Тот же пост в Telegram" src="screenshots/11_cropped.webp" width="330">
+</p>
+
+Все скриншоты опубликованных постов — в `screenshots/` (подписи в `screenshots/captions.md`).
+
+---
+
+## Лицензия
+
+MIT.
